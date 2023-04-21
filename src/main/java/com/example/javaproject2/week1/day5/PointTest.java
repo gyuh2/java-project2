@@ -21,7 +21,7 @@ public class PointTest {
         p3.y = 3;
         System.out.printf("xy가 같은지? %s\n", p3.isSameXy());
 
-        // 두 점 사이의 거리를 구하는 메소드
+        // 두 점 사이의 거리 구하기
         double dP2ToP3 = p2.getDistance(p3);
         System.out.printf("%.2f", dP2ToP3);
     }

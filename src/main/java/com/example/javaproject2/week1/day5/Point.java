@@ -15,7 +15,7 @@ public class Point {
         // this - 메소드를 호출한 객체의 값
         int xL = p3.x - this.x;
         int yL = p3.y - this.y;
-        System.out.printf("p3.x = %d, p3.y = %d, this.x = %d, this.y =  %d\n", p3.x, p3.y, this.x, this.y);
+        System.out.printf("p3.x = %d, p3.y = %d, this.x = %d, this.y = %d\n", p3.x, p3.y, this.x, this.y);
         // Math.pow(x, y) - 거듭제곱(x의 y승)
         double sumOfPow = Math.pow(xL, 2) + Math.pow(yL, 2);
         // Math.sqrt() - 제곱근
