@@ -1,4 +1,4 @@
-package com.example.javaproject2.week4;
+package com.example.javaproject2.week4.day1;
 
 public class Factor {
     // 약수의 합을 리턴하는 메소드
