@@ -7,7 +7,7 @@ public class ListEx {
     public static void main(String[] args) {
         List l1 = new ArrayList(); // 리스트 선언과 초기화(구현체: ArrayList)
 
-        // list에 값 넣기: .add()
+        // list의 맨 끝에 값 넣기: .add()
         l1.add("Hello");
         l1.add(1);
 
@@ -20,8 +20,8 @@ public class ListEx {
         System.out.println(l1.isEmpty());
 
         // 지정 인덱스 값 제거
-        l1.remove(0);
-        l1.remove(0);
+//        l1.remove(0);
+//        l1.remove(0);
 
         // list가 비어있는가?
         System.out.println(l1.isEmpty());
@@ -33,5 +33,12 @@ public class ListEx {
         arr[0] = 1;
         arr[0] = 0;
         System.out.println(arr[0]);
+
+        System.out.println("-----foreach-----");
+        // 제네릭 사용 X: 타입 예측 불가하므로 .split() 등 사용 불가
+        // var: 타입 추론
+        for (var item : l1) {
+            System.out.println(item);
+        }
     }
 }
